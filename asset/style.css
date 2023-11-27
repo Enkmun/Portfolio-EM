@@ -1,0 +1,363 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+     /* Header */
+nav {
+    display:flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding-left: 50%;
+    background-color: rgb(20, 19, 19);
+    
+
+}
+
+
+.header {
+    padding: 15px;
+    font-family: serif;
+    background-color:black;
+    width: 100%;
+    height: 100vh;
+    background-position: cover;
+    
+}
+.logo {
+    color: aliceblue;
+    font-size: 38px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+span {
+    color: #f9004d;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    
+}
+
+.header nav ul li a{
+    color: coral;
+    font-size: 20px;
+    transition: all 0.4s ease 0s;
+    font-weight: bold;
+
+}
+.header nav ul li a:hover{
+    color: rgb(243, 239, 247);
+
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-40%);
+    
+}
+.content img {
+    position:absolute;
+    left:500px;
+    height: 500px;
+    background-color: black;
+    opacity: .6;
+    
+    
+    
+
+}
+.myname {
+    color: #f9004d;
+    letter-spacing: 2px;
+    
+
+}
+h1 {
+    color: aliceblue;
+    margin: 20px 0px 20px;
+    font-size: 35px;
+
+}
+.content h5 {
+    color: aliceblue;
+
+}
+h3 {
+    color: aliceblue;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+ /* About*/
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+.about img {
+    height: auto;
+    width: 430px;
+}
+.about-text {
+    width: 500px;
+}
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.about-text h2{
+    color: aliceblue;
+    font-size: 45px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+
+}
+.about-text h5{
+    color: aliceblue;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+
+}
+.about-text p {
+    color: aliceblue;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+
+}
+
+/* Skills */
+
+.skills {
+    background-color: black;
+    width: 100%;
+    padding: 100px 0;
+}
+.title h2 {
+    color: aliceblue;
+    font-size: 35px;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+.card:hover {
+    box-shadow:1px 1px #f9004d;
+    border:2px solid #f9004d;
+    cursor:pointer;
+    color: brown;
+}
+.card {
+    height: 365px;
+    width: 340px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    background: lightslategrey;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+h5 {
+    color: rgb(3, 19, 34);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.pra p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.card .button {
+    background-color: #f9004d;
+    color: azure;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    
+}
+.card .button:hover {
+    background-color: transparent;
+    border: 1px solid #f9004d;
+    cursor: pointer;
+}
+
+/* Project */
+
+.hire-me {
+    background-color: rgb(8, 8, 8);
+    width: 100%;
+    height: 290px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    align-items: center;
+    background-image: url(./maxresdefault.jpg);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    
+
+
+}
+ 
+.hirecard {
+    height: 65px;
+    width: 300px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    background: rgb(213, 218, 223);
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    background-color: #f9004d;
+    
+    
+}
+.hirecard:hover {
+    background-color: transparent;
+
+}
+.hirebutton {
+    color: azure;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.hirebutton:hover {
+    box-shadow:1px 1px #f9004d;
+    border:3px solid #f9004d;
+    cursor:pointer;
+    color: white;
+    background-color: black;
+}
+.hire-me h3 {
+    text-align: center;
+    font-size: 40px;
+}
+
+/* Contact*/
+
+.contact-me {
+    background-color: black;
+    width: 100%;
+    padding: 100px 0;
+}
+.con-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+.card2 {
+    height: 65px;
+    width: 300px;
+    padding: 20px 35px;
+    border-radius: 20px;
+    background: rgb(213, 218, 223);
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card2:hover {
+    box-shadow:1px 1px #f9004d;
+    border:3px solid #f9004d;
+    cursor:pointer;
+    color: white;
+    background-color: black;
+}
+.con-box  .button2 {
+    background-color: #f9004d;
+    color: azure;
+    text-decoration: none;
+    border: 1px solid transparent;
+    font-weight: bold;
+    padding: 1px 40px;
+    border-radius: 30px;
+    
+}
+.card2 .button2:hover {
+    background-color: transparent;
+    border: 1px solid #f9004d;
+    cursor: pointer;
+}
+
+/* Footer*/
+
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+
+}
+footer h4 {
+    color: whitesmoke
+}
+@media  screen and (max-width: 1200px){
+    #header .nav li ul {
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;
+
+    }
+    #header .nav li ul a::after {
+        display: none;
+    }
+    .content img {
+        position: static;
+    }
+    .card {
+        width: 100%;
+    }
+}
+@media screen and ( max-width: 900px){
+    .content {
+        width: fit-content;
+    }
+    .about {
+        width: fit-content;
+    }
+    .box { width: fit-content;
+    }
+    .card {
+        width: 50%;
+        position: relative;
+    }
+    .header {
+        width: fit-content;
+        position: relative;
+    }
+    .skills {
+        width: fit-content;
+        
+    }
+}
