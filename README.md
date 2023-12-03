@@ -33,16 +33,7 @@ on cards boxes has hover over:
     background-color: transparent;
     border: 1px solid #f9004d;
     cursor: pointer;
-1. Header: a. Portfolio <h1 class="logo">,
-           b. nav bar: About me, Skills, Contact, Project.
-   .header nav ul li a{
-    color: coral;
-    font-size: 20px;
-    transition: all 0.4s ease 0s;
-    font-weight: bold;
-            c. <div class= "content">
-               <img class= "img">
-               <h1> , <h5>,
+1. Header: 
    ![Screenshot 2023-12-02 232145](https://github.com/Enkmun/Portfolio-EM/assets/147563607/e1cd3d58-6d47-4ccd-873b-8ab09b9c3134)
    
 
